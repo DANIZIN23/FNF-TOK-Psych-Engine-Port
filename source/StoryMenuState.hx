@@ -341,7 +341,11 @@ class StoryMenuState extends MusicBeatState
 		//FlxTween.tween(greychaptertext, { y: 35 }, 1); 
 		FlxTween.tween(stagecurtains, { y: -17 }, 1); 
 
-		super.create();
+		#if android
+		addVirtualPad(LEFT_FULL, A_B);
+		#end	
+		
+			super.create();
 	}
 
 	override function closeSubState() {
