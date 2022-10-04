@@ -122,7 +122,7 @@
 
 	<!--Trophy tools-->
 	<haxelib name="tentools" if="windows" />
-	<haxelib name="systools" />
+	<haxelib name="systools" if "windows"/>
 	<ndll name="systools" haxelib="systools" />
 
 	<!--In case you want to use the addons package-->
