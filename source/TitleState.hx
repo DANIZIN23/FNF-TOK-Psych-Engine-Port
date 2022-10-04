@@ -109,8 +109,7 @@ class TitleState extends MusicBeatState
 		}
 		#end*/
 
-		GameJoltAPI.connect();
-		GameJoltAPI.authDaUser(FlxG.save.data.gjUser, FlxG.save.data.gjToken);
+		
 		
 		#if CHECK_FOR_UPDATES
 		if(!closedState) {
