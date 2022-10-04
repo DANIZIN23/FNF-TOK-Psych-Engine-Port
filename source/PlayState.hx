@@ -4770,7 +4770,7 @@ class PlayState extends MusicBeatState
 				
 
 			if (Paths.formatToSongPath(curSong) == 'eddy-river')
-				GameJoltAPI.getTrophy(150044);
+				
 
 			if (Paths.formatToSongPath(curSong) == 'missile-maestro' && storyDifficulty == 2 && songMisses == 0)
 				
